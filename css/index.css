@@ -1,0 +1,277 @@
+body {
+    font-family: 'Sintony', sans-serif;
+    color: #5c6369;
+}
+
+ul,li {
+    display: block;
+    padding: 0;
+    margin: 0;
+}
+
+p {
+    line-height: 1.6em;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Playfair Display', serif;
+    font-weight: 700;
+    color: #14141d;
+}
+
+.main-header {
+    padding: 24px 0;
+}
+
+.menu {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 13px;
+}
+
+.menu__item {
+    font-weight: 700;
+    font-size: 14px;
+}
+
+.menu__item a {
+    color: #2c465a;
+    text-transform: uppercase;
+}
+
+.cta {
+    background: #fea100;
+    color:white;
+    font-weight: 700;
+    font-size: 13px;
+    border-radius: 5px;
+    text-transform: uppercase;
+    padding: 15px 0;
+    display: block;
+    cursor: pointer;
+    width: 200px;
+    border: 0;
+    display: flex;
+    justify-content: center;
+    margin-top: -5px;
+}
+
+.cta:hover {
+    text-decoration: none;
+    color: white;
+}
+
+.book__icon {
+    background: url(../img/order.png);
+    width: 21px;
+    height: 17px;
+    display: block;
+    margin-right: 13px;
+}
+
+.offer {
+    background: url(../img/first-bg.jpg) no-repeat center top;
+    height: 500px;
+}
+
+.title {
+    padding: 220px 0;
+}
+
+.title__heading {
+    font-size: 56px;
+    color: white;
+}
+
+.title__desc {
+    font-family: 'Playfair Display', serif;
+    font-weight: 700;
+    font-size: 40px;
+    color:white;
+    margin-top: -15px;
+}
+
+.title__desc span {
+    color: #fea100;
+}
+
+.call {
+    background: #edf1f3;
+    border-bottom: 1px solid #dde3e7;
+    padding: 30px 0;
+}
+
+.phone {
+    display: flex;
+    justify-content: center;
+}
+
+.phone__text {
+    background: url(../img/phone.png) no-repeat left center;
+    font-size: 14px;
+    color: #14141d;
+    text-transform: uppercase;
+    font-weight: 700;
+    width: 180px;
+    padding-left: 56px;
+    padding-top: 5px;
+    margin-top: 5px;
+}
+
+.phone__text span {
+    font-size: 14px;
+    color: #fea100;
+    margin-top: -4px;
+    display: block;
+}
+
+.phone__number {
+    font-size: 32px;
+    font-family: 'Playfair Display', serif;
+    color: #14141d;
+    margin-left: 42px;
+}
+
+.history {
+    margin-top: 50px;
+}
+
+.history__title {
+    font-size: 35px;
+    margin-bottom: 27px;
+}
+
+.history__text {
+    font-size: 14px;
+}
+
+.history__button {
+    width: 148px;
+    margin-top: 27px;
+}
+
+.about-restaurant {
+    padding: 65px 0 100px;
+}
+
+.food-images {
+
+}
+
+.food-images-down {
+    margin-top: 50px;
+}
+
+.food-images__item {
+    margin-bottom: 10px;
+}
+
+.special-offers {
+    background: url(../img/third-bg.jpg) no-repeat center top;
+    padding-top: 80px;
+}
+
+.special-title {
+    font-size: 35px;
+    color: white;
+    text-align: center;
+}
+
+.special-food {
+    text-align: center;
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+    margin-bottom: 130px;
+    margin-top: 20px;
+}
+
+.food__img {
+    margin-bottom: 45px;
+}
+
+.food__title {
+    font-size: 26px;
+    margin-bottom: 15px;
+    margin-top: -30px;
+}
+
+.food__desc {
+    font-size: 14px;
+    padding: 0 50px;
+}
+
+.food__details {
+    border-top: 1px solid #e1e1e1;
+    margin: 0 45px;
+    display: flex;
+    text-align: left;
+    color: #14141d;
+    padding: 18px 0;
+    justify-content: space-between;
+}
+
+.food__delivery {
+    text-transform: uppercase;
+    font-size: 13px;
+    font-weight: 700;
+    width: 78px;
+    border-right: 1px solid #e1e1e1;
+}
+
+.food__delivery span {
+    color: #fe4c8d;
+}
+
+.food__phone {
+    font-size: 26px;
+    font-family: 'Playfair Display', serif;
+}
+
+.food__price {
+    color: #fea100;
+    font-size: 30px;
+    font-family: 'Playfair Display', serif;
+}
+
+.footer {
+    background: #373844;
+    color: #93989e;
+    font-size: 13px;
+    text-transform: uppercase;
+    padding: 72px 106px;
+}
+
+.socials {
+    display: flex;  
+    justify-content: center;
+}
+
+.social__item a {
+    width: 52px;
+    height: 52px;
+    display: block;
+}
+
+.social__item_fb {
+    background: #3d5998 url(../img/fb.png) no-repeat center center;
+    border-radius: 50px;
+}
+
+.social__item_tw {
+    background: #55acee url(../img/tw.png) no-repeat center center;
+    border-radius: 50px;
+    margin: 0 10px;
+}
+
+.social__item_google {
+    background: #dd4b39 url(../img/google.png) no-repeat center center;
+    border-radius: 50px;
+}
+
+.credits {
+    display: flex;
+    justify-content: center;
+    margin-top: 15px;
+    color:white;
+    font-weight: 700;
+}
+
