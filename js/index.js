@@ -10,8 +10,8 @@ $(function() {
     });
 });
 
-$(document).ready(function() {
-    $('.menu-trigger').click(function() {
-        $('nav a').slideToggle(500);
-    });
+$('body').append('<button class="btn-up"/>');
+$('.btn-up').click(function(){
+    $('html').animate({'scrollTop':0}, 1000);
+    $('body').animate({'scrollTop':0}, 1000);
 });
