@@ -20,7 +20,6 @@ h1, h2, h3, h4, h5, h6 {
     color: #14141d;
 }
 
-
 .main-header {
     padding: 24px 0;
 }
@@ -68,7 +67,11 @@ h1, h2, h3, h4, h5, h6 {
     margin-right: 13px;
 }
 
-
+@media(max-width:330px) {
+    .logo_header {
+        width: 180px;
+    }
+}
 
 .offer {
     background: url(../img/first-bg.jpg) no-repeat center top;
@@ -78,7 +81,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .title {
-    padding: 220px 0;
+    padding: 210px 0;
 }
 
 .title__heading {
@@ -146,7 +149,6 @@ h1, h2, h3, h4, h5, h6 {
     margin-left: 42px;
 }
 
-
 @media(max-width:484px) {
     .phone__number {
         font-size: 24px;
@@ -155,7 +157,7 @@ h1, h2, h3, h4, h5, h6 {
 
 @media(max-width:425px) {
     .phone__number {
-        font-size: 15px;
+        font-size: 10px;
     }
     .phone__text {
         font-size: 10px;
@@ -186,8 +188,6 @@ h1, h2, h3, h4, h5, h6 {
 .about-restaurant {
     padding: 65px 0 100px;
 }
-
-
 
 @media(max-width:765px) {
     .about-restaurant {
@@ -294,6 +294,12 @@ h1, h2, h3, h4, h5, h6 {
     }
     .food__delivery {
         font-size: 10px;
+    }
+}
+
+@media(max-width:400px) {
+    .special-title {
+        margin-top: 70px;
     }
 }
 
