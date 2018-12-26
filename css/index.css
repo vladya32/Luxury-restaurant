@@ -3,6 +3,7 @@ body {
     color: #5c6369;
 }
 
+
 ul,li {
     display: block;
     padding: 0;
@@ -19,25 +20,23 @@ h1, h2, h3, h4, h5, h6 {
     color: #14141d;
 }
 
+
 .main-header {
     padding: 24px 0;
 }
 
-.menu {
-    display: flex;
-    justify-content: space-between;
-    margin-top: 13px;
+.nav-about a {
+    margin-left: 150px;
+    margin-right: 150px;
 }
 
-.menu__item {
+
+.navbar-nav a{
     font-weight: 700;
-    font-size: 14px;
-}
-
-.menu__item a {
-    color: #2c465a;
+    font-size: 17px;
     text-transform: uppercase;
-}
+    color: red;}
+
 
 .cta {
     background: #fea100;
@@ -58,7 +57,7 @@ h1, h2, h3, h4, h5, h6 {
 
 .cta:hover {
     text-decoration: none;
-    color: white;
+    color:white;
 }
 
 .book__icon {
@@ -69,9 +68,13 @@ h1, h2, h3, h4, h5, h6 {
     margin-right: 13px;
 }
 
+
+
 .offer {
     background: url(../img/first-bg.jpg) no-repeat center top;
     height: 500px;
+    background-size: cover;
+    background-position: center;
 }
 
 .title {
@@ -93,6 +96,17 @@ h1, h2, h3, h4, h5, h6 {
 
 .title__desc span {
     color: #fea100;
+}
+
+@media(max-width:455px) {
+    .title__heading {
+        font-size: 30px;
+        padding: 10px;
+    }
+    .title__desc {
+        font-size: 30px;
+        padding: 10px;
+    }
 }
 
 .call {
@@ -132,6 +146,25 @@ h1, h2, h3, h4, h5, h6 {
     margin-left: 42px;
 }
 
+
+@media(max-width:484px) {
+    .phone__number {
+        font-size: 24px;
+    }
+}
+
+@media(max-width:425px) {
+    .phone__number {
+        font-size: 15px;
+    }
+    .phone__text {
+        font-size: 10px;
+    }
+    .phone__text span {
+        font-size: 10px;
+    }
+}
+
 .history {
     margin-top: 50px;
 }
@@ -154,8 +187,18 @@ h1, h2, h3, h4, h5, h6 {
     padding: 65px 0 100px;
 }
 
-.food-images {
 
+
+@media(max-width:765px) {
+    .about-restaurant {
+        text-align: center;
+    }
+    .history__button {
+       width: 100%;
+    }
+    .credits {
+        text-align: center;
+    }
 }
 
 .food-images-down {
@@ -164,6 +207,7 @@ h1, h2, h3, h4, h5, h6 {
 
 .food-images__item {
     margin-bottom: 10px;
+    width: 100%;
 }
 
 .special-offers {
@@ -179,7 +223,7 @@ h1, h2, h3, h4, h5, h6 {
 
 .special-food {
     text-align: center;
-    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+    box-shadow: 0 0 10px rgba(0,0,0,0.8);
     margin-bottom: 130px;
     margin-top: 20px;
 }
@@ -230,6 +274,27 @@ h1, h2, h3, h4, h5, h6 {
     color: #fea100;
     font-size: 30px;
     font-family: 'Playfair Display', serif;
+}
+
+@media(max-width:1200px) {
+    .special-food .food__phone {
+        font-size: 23px;
+    }
+    .special-food .food__price {
+        font-size: 23px;
+    }
+}
+
+@media(max-width:440px) {
+    .special-food .food__phone {
+        font-size: 12px;
+    }
+    .special-food .food__price {
+        font-size: 10px;
+    }
+    .food__delivery {
+        font-size: 10px;
+    }
 }
 
 .footer {
